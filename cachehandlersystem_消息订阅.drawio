@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T03:44:51.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="w8eXe8S6IAyRmPlm0XE8" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T03:47:04.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="WxfKjn0fuO43yNpjd_Up" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1131" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="q8uxomruw0q6k4dUgymQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=0" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q8uxomruw0q6k4dUgymQ-0" value="&lt;span&gt;CacheHandlerServer&lt;br&gt;监听消息订阅&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="q8uxomruw0q6k4dUgymQ-0" value="&lt;span&gt;CacheHandlerServer&lt;br&gt;监听消息订阅&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q8uxomruw0q6k4dUgymQ-1" value="&lt;span&gt;Topic：&lt;/span&gt;&lt;br&gt;&lt;span&gt;message:platform:manager&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;短信配置/邮箱配置/文档管控/平台基础配置/平台页面配置/平台授权/主帐号口令策略/水印/敏感发现&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
