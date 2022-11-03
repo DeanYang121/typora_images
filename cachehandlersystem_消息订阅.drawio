@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T03:43:30.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1mpefzEnSmXAGOO9OSji" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T03:44:03.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PUPHWjpfIGaOm8WsZGxz" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1131" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -43,10 +43,10 @@
         <mxCell id="q8uxomruw0q6k4dUgymQ-1" value="&lt;span&gt;Topic：&lt;/span&gt;&lt;br&gt;&lt;span&gt;message:platform:manager&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;短信配置/邮箱配置/文档管控/平台基础配置/平台页面配置/平台授权/主帐号口令策略/水印/敏感发现&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="516" width="200" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="q8uxomruw0q6k4dUgymQ-2" value="&lt;span&gt;Topic：message:master:baseconf&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;主帐号基础信息和otp信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="q8uxomruw0q6k4dUgymQ-2" value="&lt;span&gt;Topic：&lt;br&gt;message:master:baseconf&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;主帐号基础信息和otp信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60" y="90" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="q8uxomruw0q6k4dUgymQ-3" value="&lt;span&gt;Topic：message:master:password&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;主帐号密码变更&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="q8uxomruw0q6k4dUgymQ-3" value="&lt;span&gt;Topic：&lt;br&gt;message:master:password&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;主帐号密码变更&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="90" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="q8uxomruw0q6k4dUgymQ-4" value="&lt;span&gt;Topic：&lt;/span&gt;&lt;br&gt;&lt;span&gt;message:business:manager&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;应用列表/应用url/应用帐号/应用角色&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
