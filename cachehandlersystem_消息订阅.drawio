@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T02:46:32.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="iUPOW2SWqD60ibM3rylm" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-03T03:34:46.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="TgLFM9uxK0I6TJ4zx1qK" version="20.5.1" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1064" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="q8uxomruw0q6k4dUgymQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q8uxomruw0q6k4dUgymQ-0" target="q8uxomruw0q6k4dUgymQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-0" value="&lt;b&gt;CacheHandlerServer&lt;br&gt;监听消息订阅&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-1" value="&lt;b&gt;Topic：&lt;/b&gt;&lt;br&gt;&lt;b&gt;message:platform:manager&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;短信配置/邮箱配置/文档管控/平台基础配置/平台页面配置/平台授权/主帐号口令策略/水印/敏感发现&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="516" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-2" value="&lt;b&gt;Topic：message:master:baseconf&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;主帐号基础信息和otp信息&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="90" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-3" value="&lt;b&gt;Topic：message:master:password&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;主帐号密码变更&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="90" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-4" value="&lt;b&gt;Topic：&lt;/b&gt;&lt;br&gt;&lt;b&gt;message:business:manager&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;应用列表/应用url/应用帐号/应用角色&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="90" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-5" value="&lt;b&gt;Topic：&lt;br&gt;message:master:authen&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;主从帐号授权/主帐号应用角色授权&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="90" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-6" value="&lt;b&gt;Topic：&lt;/b&gt;&lt;br&gt;&lt;b&gt;message:interface:manager&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;NAT/日志外发&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="516" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-7" value="&lt;b&gt;Topic：&lt;br&gt;message:vault:manager&lt;br&gt;&lt;br&gt;金库规则&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="516" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-8" value="&lt;b&gt;Topic：&lt;/b&gt;&lt;br&gt;&lt;b&gt;message:notice:manager&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;公告信息&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="516" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-9" value="&lt;b&gt;Topic：&lt;/b&gt;&lt;br&gt;&lt;b&gt;message:system:config:change&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;网关所需资源信息变更&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="220" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-10" value="&lt;b&gt;Topic：&lt;/b&gt;&lt;br&gt;&lt;b&gt;message:gw:res:change&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;通知网关本地数据变更&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="310" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q8uxomruw0q6k4dUgymQ-11" value="&lt;b&gt;Topic：&lt;/b&gt;&lt;br&gt;&lt;b&gt;message:dbbackup:manager&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;数据库备份恢复通知，需要更全量更新redis数据&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="255" width="220" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
