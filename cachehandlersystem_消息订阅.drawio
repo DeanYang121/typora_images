@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T09:48:44.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="O6p8h_mEes9a9J24xMNr" version="20.5.1" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-11-03T09:53:39.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IFmbIRQCUsoL561s8hy8" version="20.5.1" type="github" pages="18">
   <diagram id="S8ZfTGtHfoGnYdz9rSkK" name="架构图">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XZUxUbKC2gvvu0YCIMIf" name="CacheHandlerSystem启动">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3nEvbWacobt8RspSRXqW" name="缓存初始化">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,8 +124,12 @@
         <mxCell id="W5FJz7ruIi99_7_yxhdU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W5FJz7ruIi99_7_yxhdU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-36">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="W5FJz7ruIi99_7_yxhdU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="336" y="373" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="W5FJz7ruIi99_7_yxhdU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-35">
           <mxGeometry relative="1" as="geometry" />
@@ -134,21 +138,26 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YwALZIY3ogtoY9OMkYJi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YwALZIY3ogtoY9OMkYJi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="560" />
-              <mxPoint x="877" y="560" />
+              <mxPoint x="335" y="370" />
+              <mxPoint x="335" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwALZIY3ogtoY9OMkYJi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;entryX=-0.025;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="373" />
+              <mxPoint x="840" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YwALZIY3ogtoY9OMkYJi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="500" />
-              <mxPoint x="892" y="500" />
+              <mxPoint x="540" y="440" />
+              <mxPoint x="892" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -158,7 +167,8 @@
         <mxCell id="YwALZIY3ogtoY9OMkYJi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="270" />
+              <mxPoint x="840" y="373" />
+              <mxPoint x="840" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -190,7 +200,7 @@
           <mxGeometry x="890" y="414" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5FJz7ruIi99_7_yxhdU-28" value="SaveLogConf&lt;br&gt;日志外发服务器配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="880" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="900" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5FJz7ruIi99_7_yxhdU-29" value="SaveAllRes&lt;br&gt;更新资源列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="780" y="710" width="120" height="60" as="geometry" />
@@ -223,7 +233,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="消息订阅列表">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1468,7 +1478,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="czCutFiwc11hPXw07o0W" name="NAT/日志外发">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
