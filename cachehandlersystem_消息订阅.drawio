@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T08:16:42.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="VdqXjptLyMbSDdGde1ik" version="20.5.1" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-11-03T08:54:36.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Kl8E7jkncJL5kGuIrWBt" version="20.5.1" type="github" pages="19">
   <diagram id="S8ZfTGtHfoGnYdz9rSkK" name="架构图">
-    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XZUxUbKC2gvvu0YCIMIf" name="CacheHandlerSystem启动">
-    <mxGraphModel dx="1024" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3nEvbWacobt8RspSRXqW" name="缓存初始化">
-    <mxGraphModel dx="1024" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,8 +130,10 @@
         <mxCell id="W5FJz7ruIi99_7_yxhdU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W5FJz7ruIi99_7_yxhdU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-37">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="W5FJz7ruIi99_7_yxhdU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="W5FJz7ruIi99_7_yxhdU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5FJz7ruIi99_7_yxhdU-19" target="W5FJz7ruIi99_7_yxhdU-35">
           <mxGeometry relative="1" as="geometry" />
@@ -194,13 +196,13 @@
           <mxGeometry x="200" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5FJz7ruIi99_7_yxhdU-34" value="SaveAllNatPortMapping&lt;br&gt;nat port映射关系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="75" y="490" width="130" height="60" as="geometry" />
+          <mxGeometry x="65" y="480" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5FJz7ruIi99_7_yxhdU-35" value="SaveAllPortalVaultInfo&lt;br&gt;portal端需要的金库规则和关联数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="45" y="410" width="160" height="60" as="geometry" />
+          <mxGeometry x="35" y="410" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5FJz7ruIi99_7_yxhdU-36" value="SaveAll&lt;br&gt;authc登录otp二次验证时所需otp数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="50" y="340" width="155" height="65" as="geometry" />
+          <mxGeometry x="40" y="340" width="155" height="65" as="geometry" />
         </mxCell>
         <mxCell id="W5FJz7ruIi99_7_yxhdU-37" value="SaveAllNotice&lt;br&gt;portal 公告" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="85" y="240" width="120" height="60" as="geometry" />
@@ -209,7 +211,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="消息订阅列表">
-    <mxGraphModel dx="1024" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -286,7 +288,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7_u2NrqMjhaE0043-CKU" name="消息订阅数据流图">
-    <mxGraphModel dx="1203" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -402,7 +404,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xQ6zkjmn__KYkNPFauYp" name="主帐号基础信息和otp信息-账户基础信息">
-    <mxGraphModel dx="1313" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -465,7 +467,7 @@
         <mxCell id="sVIK9f60rmDHmE4edvJY-1" value="master&lt;br&gt;账户基础信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="N_-KR1Nh_8TzQQhGgNAI-5">
           <mxGeometry x="60" y="360" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-15" value="del" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-15" value="del-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -482,7 +484,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-19" value="update" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-19" value="update-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1030" y="60" width="240" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -510,7 +512,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-25" value="add" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-25" value="add-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="790" y="60" width="240" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -587,7 +589,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FIi5CIuBzP3fnmGFifVJ" name="主帐号基础信息和otp信息-账户otp认证信息">
-    <mxGraphModel dx="1313" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -650,7 +652,7 @@
         <mxCell id="ZbtQqs1_X_hKqZwyuvTO-15" value="opt&lt;br&gt;账户otp认证信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="ZbtQqs1_X_hKqZwyuvTO-5">
           <mxGeometry x="55" y="360" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZbtQqs1_X_hKqZwyuvTO-16" value="del" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ZbtQqs1_X_hKqZwyuvTO-16" value="del-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -676,7 +678,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZbtQqs1_X_hKqZwyuvTO-26" value="add/update" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ZbtQqs1_X_hKqZwyuvTO-26" value="add/update-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="790" y="60" width="240" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -732,7 +734,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SkiU80RA-u6acKqU1LHs" name="主帐号基础信息和otp信息-登录次数变更">
-    <mxGraphModel dx="1313" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -795,7 +797,7 @@
         <mxCell id="-8IbYB-awGFPv86oseFU-15" value="master_login_num&lt;br&gt;登录次数变更" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="-8IbYB-awGFPv86oseFU-5">
           <mxGeometry x="30" y="415" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-8IbYB-awGFPv86oseFU-16" value="update" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="-8IbYB-awGFPv86oseFU-16" value="process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -850,7 +852,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y4TC4dIrdcf1VwkBin6O" name="主帐号密码变更">
-    <mxGraphModel dx="1313" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -910,7 +912,7 @@
         <mxCell id="9oDXkhnCh-lvxHlXzsu4-14" value="" style="whiteSpace=wrap;strokeColor=#FF0000;fillColor=#FF0000" vertex="1" parent="9oDXkhnCh-lvxHlXzsu4-5">
           <mxGeometry x="160" y="370" width="5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="9oDXkhnCh-lvxHlXzsu4-15" value="UpdatePwdHis" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="9oDXkhnCh-lvxHlXzsu4-15" value="process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -965,7 +967,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KZmXTTjoAr7ieY4-ny8W" name="主从帐号-主从帐号授权变更">
-    <mxGraphModel dx="1313" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1025,7 +1027,7 @@
         <mxCell id="UWtDeV9mKeZ6RdRHco04-14" value="" style="whiteSpace=wrap;strokeColor=#FF0000;fillColor=#FF0000" vertex="1" parent="UWtDeV9mKeZ6RdRHco04-5">
           <mxGeometry x="160" y="370" width="5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UWtDeV9mKeZ6RdRHco04-15" value="update" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UWtDeV9mKeZ6RdRHco04-15" value="process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1083,7 +1085,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WxuLk96sCcRDftQVNO9B" name="主从账号-主帐号应用角色授权变更">
-    <mxGraphModel dx="1313" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1099,7 +1101,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-GBWvLnlYp2DeQVfCiEX-4" value="message:master:authen" style="fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="-GBWvLnlYp2DeQVfCiEX-1">
-          <mxGeometry x="10" y="210" width="150" height="65" as="geometry" />
+          <mxGeometry y="210" width="160" height="65" as="geometry" />
         </mxCell>
         <mxCell id="-GBWvLnlYp2DeQVfCiEX-5" value="CachehandlerSystem" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="260" y="60" width="280" height="560" as="geometry" />
@@ -1128,7 +1130,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-GBWvLnlYp2DeQVfCiEX-11" value="type" style="rhombus;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="-GBWvLnlYp2DeQVfCiEX-5">
+        <mxCell id="-GBWvLnlYp2DeQVfCiEX-11" value="消息类型" style="rhombus;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="-GBWvLnlYp2DeQVfCiEX-5">
           <mxGeometry x="45" y="280" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-GBWvLnlYp2DeQVfCiEX-12" value=" listen redis_mq" style="fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="-GBWvLnlYp2DeQVfCiEX-5">
@@ -1143,7 +1145,10 @@
         <mxCell id="-GBWvLnlYp2DeQVfCiEX-14" value="" style="whiteSpace=wrap;strokeColor=#FF0000;fillColor=#FF0000" vertex="1" parent="-GBWvLnlYp2DeQVfCiEX-5">
           <mxGeometry x="160" y="370" width="5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="-GBWvLnlYp2DeQVfCiEX-15" value="update" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="-GBWvLnlYp2DeQVfCiEX-26" value="role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="-GBWvLnlYp2DeQVfCiEX-5">
+          <mxGeometry x="65" y="410" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-GBWvLnlYp2DeQVfCiEX-15" value="Processing-del" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1175,7 +1180,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-GBWvLnlYp2DeQVfCiEX-21" value="redis" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="910" y="60" width="250" height="560" as="geometry">
+          <mxGeometry x="910" y="40" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1192,19 +1197,126 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-GBWvLnlYp2DeQVfCiEX-25" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="790" y="470" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-GBWvLnlYp2DeQVfCiEX-26" value="role&lt;br&gt;主帐号应用角色授权" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="285" y="470" width="130" height="40" as="geometry" />
+          <mxGeometry x="790" y="460" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="thcA2UPY5Fk6G7TchHt5" name=" 应用列表/应用url/应用帐号/应用角色">
-    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Xt9IWi2164aK83yv2r7y-1" value="    redis-mq" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="180" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-2" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-1">
+          <mxGeometry x="70" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.513;entryY=-0.046;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Xt9IWi2164aK83yv2r7y-1" source="Xt9IWi2164aK83yv2r7y-2" target="Xt9IWi2164aK83yv2r7y-4">
+          <mxGeometry x="100" y="40" as="geometry">
+            <mxPoint x="95" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-4" value="message:business:manager" style="fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-1">
+          <mxGeometry y="210" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-5" value="CachehandlerSystem" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-6" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-5">
+          <mxGeometry x="70" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="Xt9IWi2164aK83yv2r7y-5" source="Xt9IWi2164aK83yv2r7y-6">
+          <mxGeometry x="50" y="20" as="geometry">
+            <mxPoint x="85" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;" edge="1" parent="Xt9IWi2164aK83yv2r7y-5" target="Xt9IWi2164aK83yv2r7y-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-9" value="topic queue" style="fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-5">
+          <mxGeometry x="30" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;" edge="1" parent="Xt9IWi2164aK83yv2r7y-5" source="Xt9IWi2164aK83yv2r7y-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="85" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-11" value="消息类型" style="rhombus;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-5">
+          <mxGeometry x="45" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-12" value=" listen redis_mq" style="fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-5">
+          <mxGeometry x="30" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;fontColor=#FF0000;endSize=6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.509;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Xt9IWi2164aK83yv2r7y-5" source="Xt9IWi2164aK83yv2r7y-12" target="Xt9IWi2164aK83yv2r7y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="190" as="sourcePoint" />
+            <mxPoint x="75" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-14" value="" style="whiteSpace=wrap;strokeColor=#FF0000;fillColor=#FF0000" vertex="1" parent="Xt9IWi2164aK83yv2r7y-5">
+          <mxGeometry x="160" y="370" width="5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-15" value="消息类型&lt;br&gt;business&lt;br&gt;url&lt;br&gt;slave&lt;br&gt;resRole" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-5">
+          <mxGeometry x="45" y="400" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-16" value="Processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
+            <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-17" value="1. 删除：&#xa;删除应用基础信息、端口映射、&#xa;用户-应用-从账户信息&#xa;orm:hash:res&#xa;mapper:res:port:bean&#xa;mapper:res:master:{ID}&#xa;mapper:master:res:slave:{ID}&#xa;&#xa;2. 更新、新增：&#xa;orm:hash:res&#xa;mapper:res:port:bean&#xa;" style="align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-16">
+          <mxGeometry x="10" y="180" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-18" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="Xt9IWi2164aK83yv2r7y-16">
+          <mxGeometry x="100" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-19" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.477;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Xt9IWi2164aK83yv2r7y-16" source="Xt9IWi2164aK83yv2r7y-17" target="Xt9IWi2164aK83yv2r7y-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="470" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-20" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.993;exitY=0.462;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.018;entryY=0.59;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Xt9IWi2164aK83yv2r7y-4" target="Xt9IWi2164aK83yv2r7y-9">
+          <mxGeometry x="50" y="30" as="geometry">
+            <mxPoint x="345" y="190" as="targetPoint" />
+            <mxPoint x="345" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.444;exitDx=0;exitDy=0;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;entryX=-0.023;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="Xt9IWi2164aK83yv2r7y-14" target="Xt9IWi2164aK83yv2r7y-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-22" value="redis" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="910" y="60" width="250" height="560" as="geometry">
+            <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-23" value="redis" style="align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-22">
+          <mxGeometry x="10" y="250" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-24" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="Xt9IWi2164aK83yv2r7y-22">
+          <mxGeometry x="100" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-25" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Xt9IWi2164aK83yv2r7y-22" source="Xt9IWi2164aK83yv2r7y-23" target="Xt9IWi2164aK83yv2r7y-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="470" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xt9IWi2164aK83yv2r7y-26" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="790" y="460" width="120" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
