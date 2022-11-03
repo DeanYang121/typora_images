@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T05:43:27.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OXO9Ivs0LuHA3nvVzbua" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-03T06:13:32.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="o0RJV4YHeZ2gzUFVtUts" version="20.5.1" type="github" pages="16">
   <diagram id="S8ZfTGtHfoGnYdz9rSkK" name="架构图">
-    <mxGraphModel dx="1024" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -286,7 +286,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7_u2NrqMjhaE0043-CKU" name="消息订阅数据流图">
-    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="733" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -398,6 +398,160 @@
         <mxCell id="ekUQizfG_xZ263fyxsKw-1" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Topic：&lt;/span&gt;&lt;br style=&quot;font-family: Verdana;&quot;&gt;&lt;br style=&quot;font-family: Verdana;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;message:master:authen&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;message:master:baseconf&lt;/span&gt;&lt;br style=&quot;font-family: Verdana;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;message:master:password&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;message:business:manager&lt;br&gt;&lt;/font&gt;message:platform:manager&lt;br&gt;message:interface:manager&lt;br&gt;message:vault:manager&lt;br&gt;message:notice:manager&lt;br&gt;message:system:config:change&lt;br&gt;message:gw:res:change&lt;br&gt;message:dbbackup:manager" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="250" y="230" width="180" height="200" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xQ6zkjmn__KYkNPFauYp" name="主帐号基础信息和otp信息">
+    <mxGraphModel dx="698" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;endArrow=block;endFill=0;endSize=6;" edge="1" parent="1" source="8wyVzTV6rw0VB1o6PAx4-1" target="Bz9MGp0L7ZGQYiBAmUiQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wyVzTV6rw0VB1o6PAx4-1" value="redis-mq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="375" y="40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-1" value="message:master:baseconf&lt;br&gt;&lt;br&gt;主帐号基础信息和otp信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;endSize=6;endArrow=block;endFill=0;" edge="1" parent="1" source="Bz9MGp0L7ZGQYiBAmUiQ-2" target="Bz9MGp0L7ZGQYiBAmUiQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;endArrow=block;endFill=0;endSize=6;" edge="1" parent="1" source="Bz9MGp0L7ZGQYiBAmUiQ-2" target="Bz9MGp0L7ZGQYiBAmUiQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#FF0000;endArrow=block;endFill=0;endSize=6;" edge="1" parent="1" source="Bz9MGp0L7ZGQYiBAmUiQ-2" target="Bz9MGp0L7ZGQYiBAmUiQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-2" value="&lt;font color=&quot;#000033&quot;&gt;type&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="385" y="160" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;endArrow=block;endFill=0;endSize=6;" edge="1" parent="1" source="Bz9MGp0L7ZGQYiBAmUiQ-3" target="Bz9MGp0L7ZGQYiBAmUiQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-3" value="账户基础信息变更消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="180" y="167.5" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;endArrow=block;endFill=0;endSize=6;" edge="1" parent="1" source="Bz9MGp0L7ZGQYiBAmUiQ-4" target="Bz9MGp0L7ZGQYiBAmUiQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;endArrow=block;endFill=0;endSize=6;" edge="1" parent="1" source="Bz9MGp0L7ZGQYiBAmUiQ-4" target="Bz9MGp0L7ZGQYiBAmUiQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#FF0000;endArrow=block;endFill=0;endSize=6;" edge="1" parent="1" source="Bz9MGp0L7ZGQYiBAmUiQ-4" target="Bz9MGp0L7ZGQYiBAmUiQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-4" value="&lt;font color=&quot;#000033&quot;&gt;status&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-10" value="master" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="165" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-11" value="账户基础信息变更消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="590" y="165" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-12" value="账户基础信息变更消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="380" y="295" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-15" value="opt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="175" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-16" value="master_login_num" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-17" value="add" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-18" value="update" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-19" value="del" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz9MGp0L7ZGQYiBAmUiQ-28" value="1.删删除用户信息：orm:hash:master&lt;br&gt;2.删除的name映射关系：&lt;br&gt;&amp;nbsp; &amp;nbsp; mapper:master:name:master&lt;br&gt;&amp;nbsp; &amp;nbsp; mapper:master:name:id&lt;br&gt;&lt;br&gt;3.删除的email映射关系：mapper:master:email:id&lt;br&gt;4.删除的mobile映射关系：mapper:master:mobile:id&lt;br&gt;5.删除主账号改密码历史：orm:hash:pwdhistory" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontColor=#FF0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="610" width="350" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y4TC4dIrdcf1VwkBin6O" name="主帐号密码变更">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KZmXTTjoAr7ieY4-ny8W" name="主从帐号授权/主帐号应用角色授权">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="thcA2UPY5Fk6G7TchHt5" name=" 应用列表/应用url/应用帐号/应用角色">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UctxRh-SF_JCmAs9jWx7" name="短信配置/邮箱配置/文档管控/平台基础配置/平台页面配置/平台授权/主帐号口令策略/水印/敏感发现">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="czCutFiwc11hPXw07o0W" name="NAT/日志外发">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vSbur5ItilxygD4y-A_H" name="金库规则">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VAlPUDki7WGtjKCvC0UJ" name="公告信息">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y6URiBIctQydiBc5447h" name="网关所需资源信息变更">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BteOJap-VrMH8YPbc2m1" name="通知网关本地数据变更">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cJoVm1vU9QNfj15kLksv" name="数据库备份恢复通知，需要更全量更新redis数据">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
