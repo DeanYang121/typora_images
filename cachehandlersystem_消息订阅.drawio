@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T09:54:45.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="BuLhCpPxBg7Lgcq_Xr5o" version="20.5.1" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-11-03T16:29:47.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rDoQEzpN9Qx5IVh3-UvD" version="20.5.1" type="github" pages="18">
   <diagram id="S8ZfTGtHfoGnYdz9rSkK" name="架构图">
-    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XZUxUbKC2gvvu0YCIMIf" name="CacheHandlerSystem启动">
-    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3nEvbWacobt8RspSRXqW" name="缓存初始化">
-    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,7 +245,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="消息订阅列表">
-    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -343,7 +343,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7_u2NrqMjhaE0043-CKU" name="消息订阅数据流图">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -459,7 +459,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xQ6zkjmn__KYkNPFauYp" name="主帐号基础信息和otp信息-账户基础信息">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -522,7 +522,7 @@
         <mxCell id="sVIK9f60rmDHmE4edvJY-1" value="master&lt;br&gt;账户基础信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="N_-KR1Nh_8TzQQhGgNAI-5">
           <mxGeometry x="60" y="360" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-15" value="del-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-15" value="handler---&gt;del---&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -539,7 +539,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-19" value="update-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-19" value="handler---&gt;update---&gt;process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1030" y="60" width="240" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -567,7 +567,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-25" value="add-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="N_-KR1Nh_8TzQQhGgNAI-25" value="handler---&gt;add---&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="790" y="60" width="240" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -644,7 +644,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FIi5CIuBzP3fnmGFifVJ" name="主帐号基础信息和otp信息-账户otp认证信息">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -707,7 +707,7 @@
         <mxCell id="ZbtQqs1_X_hKqZwyuvTO-15" value="opt&lt;br&gt;账户otp认证信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="ZbtQqs1_X_hKqZwyuvTO-5">
           <mxGeometry x="55" y="360" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZbtQqs1_X_hKqZwyuvTO-16" value="del-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ZbtQqs1_X_hKqZwyuvTO-16" value="handler---&gt;del---&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -733,7 +733,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZbtQqs1_X_hKqZwyuvTO-26" value="add/update-process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ZbtQqs1_X_hKqZwyuvTO-26" value="handler---&gt;add/update---&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="790" y="60" width="240" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -789,7 +789,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SkiU80RA-u6acKqU1LHs" name="主帐号基础信息和otp信息-登录次数变更">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -852,7 +852,7 @@
         <mxCell id="-8IbYB-awGFPv86oseFU-15" value="master_login_num&lt;br&gt;登录次数变更" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="-8IbYB-awGFPv86oseFU-5">
           <mxGeometry x="30" y="415" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-8IbYB-awGFPv86oseFU-16" value="process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="-8IbYB-awGFPv86oseFU-16" value="handler---&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -907,7 +907,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y4TC4dIrdcf1VwkBin6O" name="主帐号密码变更">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -967,7 +967,7 @@
         <mxCell id="9oDXkhnCh-lvxHlXzsu4-14" value="" style="whiteSpace=wrap;strokeColor=#FF0000;fillColor=#FF0000" vertex="1" parent="9oDXkhnCh-lvxHlXzsu4-5">
           <mxGeometry x="160" y="370" width="5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="9oDXkhnCh-lvxHlXzsu4-15" value="process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="9oDXkhnCh-lvxHlXzsu4-15" value="handler---&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1022,7 +1022,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KZmXTTjoAr7ieY4-ny8W" name="主从帐号-主从帐号授权变更">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1082,7 +1082,7 @@
         <mxCell id="UWtDeV9mKeZ6RdRHco04-14" value="" style="whiteSpace=wrap;strokeColor=#FF0000;fillColor=#FF0000" vertex="1" parent="UWtDeV9mKeZ6RdRHco04-5">
           <mxGeometry x="160" y="370" width="5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UWtDeV9mKeZ6RdRHco04-15" value="process" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UWtDeV9mKeZ6RdRHco04-15" value="handler--&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1140,7 +1140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WxuLk96sCcRDftQVNO9B" name="主从账号-主帐号应用角色授权变更">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1203,7 +1203,7 @@
         <mxCell id="-GBWvLnlYp2DeQVfCiEX-26" value="role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="-GBWvLnlYp2DeQVfCiEX-5">
           <mxGeometry x="65" y="410" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-GBWvLnlYp2DeQVfCiEX-15" value="Processing-del" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+        <mxCell id="-GBWvLnlYp2DeQVfCiEX-15" value="handler--&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1258,7 +1258,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="thcA2UPY5Fk6G7TchHt5" name=" 应用列表/应用url/应用帐号/应用角色">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1321,7 +1321,7 @@
         <mxCell id="Xt9IWi2164aK83yv2r7y-15" value="消息类型&lt;br&gt;business&lt;br&gt;url&lt;br&gt;slave&lt;br&gt;resRole" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="Xt9IWi2164aK83yv2r7y-5">
           <mxGeometry x="45" y="400" width="70" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Xt9IWi2164aK83yv2r7y-16" value="Processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+        <mxCell id="Xt9IWi2164aK83yv2r7y-16" value="handler---&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1376,7 +1376,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UctxRh-SF_JCmAs9jWx7" name="短信配置/邮箱配置/文档管控/平台基础配置/平台页面配置/平台授权/主帐号口令策略/水印/敏感发现">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1442,7 +1442,7 @@
         <mxCell id="MLyXYO8-fybBo0KPolXi-3" value="&lt;b&gt;base/page/license/policy/water/mask&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="g4DVJiaY_OoXz1xYkATf-5">
           <mxGeometry x="15" y="450" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g4DVJiaY_OoXz1xYkATf-16" value="Processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+        <mxCell id="g4DVJiaY_OoXz1xYkATf-16" value="handler--&gt;processingSubdivide" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1497,7 +1497,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="czCutFiwc11hPXw07o0W" name="NAT/日志外发">
-    <mxGraphModel dx="1183" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1560,7 +1560,7 @@
         <mxCell id="ShIBeQa2HN3ZUEjznnPo-15" value="&lt;b&gt;nat&lt;br&gt;logout&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="ShIBeQa2HN3ZUEjznnPo-5">
           <mxGeometry x="85" y="415" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ShIBeQa2HN3ZUEjznnPo-17" value="Processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+        <mxCell id="ShIBeQa2HN3ZUEjznnPo-17" value="handler---&gt;processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1615,7 +1615,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vSbur5ItilxygD4y-A_H" name="金库规则">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1678,7 +1678,7 @@
         <mxCell id="799wY0OxmBSkw6XguVyC-15" value="&lt;b&gt;rule 规则&lt;br&gt;&lt;/b&gt;apply 金库申请类消息&lt;br&gt;emergency 金库开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="799wY0OxmBSkw6XguVyC-5">
           <mxGeometry x="45" y="405" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="799wY0OxmBSkw6XguVyC-16" value="Processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+        <mxCell id="799wY0OxmBSkw6XguVyC-16" value="handler--&gt;processingSubdivide" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="550" y="70" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1733,7 +1733,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VAlPUDki7WGtjKCvC0UJ" name="公告信息">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1796,7 +1796,7 @@
         <mxCell id="khXrwxuwp91VvkavT1er-15" value="&lt;b&gt;add、del、update&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="khXrwxuwp91VvkavT1er-5">
           <mxGeometry x="50" y="420" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="khXrwxuwp91VvkavT1er-16" value="Processing" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+        <mxCell id="khXrwxuwp91VvkavT1er-16" value="handler" style="swimlane;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="550" y="70" width="250" height="560" as="geometry">
             <mxRectangle x="620" y="70" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1851,7 +1851,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y6URiBIctQydiBc5447h" name="网关所需资源信息变更">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1966,7 +1966,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cJoVm1vU9QNfj15kLksv" name="数据库备份恢复通知，需要更全量更新redis数据">
-    <mxGraphModel dx="1218" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2052,9 +2052,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7XfaqsG12_BDVnl7iJ_k-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.444;exitDx=0;exitDy=0;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;entryX=-0.023;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="7XfaqsG12_BDVnl7iJ_k-14" target="7XfaqsG12_BDVnl7iJ_k-16">
+        <mxCell id="7XfaqsG12_BDVnl7iJ_k-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;endArrow=open;endFill=0;endSize=6;entryX=-0.023;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7XfaqsG12_BDVnl7iJ_k-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="370" as="targetPoint" />
+            <mxPoint x="440" y="463" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7XfaqsG12_BDVnl7iJ_k-21" value="redis" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
