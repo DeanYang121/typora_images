@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T01:46:10.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ypUBlaCO9MIoNNZ6OSNT" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T03:36:45.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="7Dudw2qUMZFR5sK-fQU5" version="20.5.1" type="github">
   <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
-    <mxGraphModel dx="1017" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1064" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lddYlFQK37-lrur-JPGs-1" value="redis缓存" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="lddYlFQK37-lrur-JPGs-1" value="&lt;b&gt;redis缓存&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="290" y="560" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lddYlFQK37-lrur-JPGs-2" value="postgres" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="lddYlFQK37-lrur-JPGs-2" value="&lt;b&gt;postgres&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="600" y="560" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lddYlFQK37-lrur-JPGs-3" value="redis-mq&lt;br&gt;消息队列" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="lddYlFQK37-lrur-JPGs-3" value="&lt;b&gt;redis-mq&lt;br&gt;消息队列&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="450" y="100" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lddYlFQK37-lrur-JPGs-4" value="CacheHandlerServer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="lddYlFQK37-lrur-JPGs-4" value="&lt;b&gt;CacheHandlerServer&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="430" y="320" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lddYlFQK37-lrur-JPGs-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lddYlFQK37-lrur-JPGs-4" target="lddYlFQK37-lrur-JPGs-3">
@@ -43,11 +43,8 @@
         <mxCell id="lddYlFQK37-lrur-JPGs-11" value="将查询的数据写入redis缓存中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="480" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lddYlFQK37-lrur-JPGs-12" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="340" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="lddYlFQK37-lrur-JPGs-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;CacheHandlerServer结构图&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="40" width="270" height="50" as="geometry" />
+          <mxGeometry x="370" y="40" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
