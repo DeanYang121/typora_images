@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T04:42:56.121Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4UyKVHa1Lhfyr1zkzsHz" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-03T05:43:27.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OXO9Ivs0LuHA3nvVzbua" version="20.5.1" type="github" pages="5">
   <diagram id="S8ZfTGtHfoGnYdz9rSkK" name="架构图">
     <mxGraphModel dx="1024" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -285,8 +285,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7_u2NrqMjhaE0043-CKU" name=" 主帐号基础信息和otp信息">
-    <mxGraphModel dx="1024" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="7_u2NrqMjhaE0043-CKU" name="消息订阅数据流图">
+    <mxGraphModel dx="982" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -331,8 +331,8 @@
         <mxCell id="weS9cHAxMrQKm3zLipmc-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
           <mxGeometry x="925" y="460" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="weS9cHAxMrQKm3zLipmc-11" value="&lt;font color=&quot;#ff0000&quot;&gt;Topic：&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;message:master:baseconf&lt;/span&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="weS9cHAxMrQKm3zLipmc-6">
-          <mxGeometry x="-0.0832" y="20" relative="1" as="geometry">
+        <mxCell id="weS9cHAxMrQKm3zLipmc-11" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="weS9cHAxMrQKm3zLipmc-6">
+          <mxGeometry x="-0.0256" y="-80" relative="1" as="geometry">
             <mxPoint x="220" y="190" as="sourcePoint" />
             <mxPoint x="440" y="220" as="targetPoint" />
             <Array as="points">
@@ -394,6 +394,9 @@
         </mxCell>
         <mxCell id="TtevFhGEYl3HT0BYgjlS-11" value="&lt;font color=&quot;#ff0000&quot;&gt;save&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="565" y="495" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekUQizfG_xZ263fyxsKw-1" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Topic：&lt;/span&gt;&lt;br style=&quot;font-family: Verdana;&quot;&gt;&lt;br style=&quot;font-family: Verdana;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;message:master:authen&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;message:master:baseconf&lt;/span&gt;&lt;br style=&quot;font-family: Verdana;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;message:master:password&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;message:business:manager&lt;br&gt;&lt;/font&gt;message:platform:manager&lt;br&gt;message:interface:manager&lt;br&gt;message:vault:manager&lt;br&gt;message:notice:manager&lt;br&gt;message:system:config:change&lt;br&gt;message:gw:res:change&lt;br&gt;message:dbbackup:manager" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="180" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
