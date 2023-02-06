@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T06:10:32.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="7BcvAVMNz8mUmtS8VW1H" type="github"><diagram id="gI0s9S279TTFQf_Cc0k4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-06T06:18:19.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="8OFcyb5bUG-4BJ6q1OLT" type="github">
+  <diagram id="NrAuofYMSVISvDW0R4n6" name="第 1 页">
+    <mxGraphModel dx="1322" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KpDzADibFbILNIxdteFy-1" value="data" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-3" value="TCP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-4" value="IP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-5" value="E" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-6" value="协议尾部" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-7" value="data" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-8" value="TCP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-9" value="IP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-10" value="E" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-11" value="协议尾部" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-12" value="data" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-13" value="TCP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-16" value="协议尾部" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="370" y="440" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-17" value="TCP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-18" value="IP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-19" value="E" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-22" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;协议尾部&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-23" value="TCP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="220" y="440" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-24" value="IP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="170" y="440" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-25" value="E" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-26" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;协议尾部&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-27" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;由于是jmeter直接访问recv_packet_server，所以数据直接封装在协议内部发送&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="177.5" width="450" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-28" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;由于agent是抓包进行发送，所以数据将会携带原始的tcp，ip，以太网帧头部进行发送，这里是发送以太网帧的包&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="307.5" width="450" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KpDzADibFbILNIxdteFy-29" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 20px;&quot;&gt;由于agent是抓包进行发送，所以数据将会携带原始的tcp，ip，以太网帧头部进行发送，这里是发送以太网帧的包，这里是去除抓包时的以太网和ip头部的数据&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="420" width="490" height="122.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
