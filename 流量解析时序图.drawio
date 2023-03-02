@@ -1,20 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T03:49:52.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-PKW7FF1Go5NXq0Mdv3G" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T06:15:08.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Okv3PEVMhogWxmvA9_jH" version="20.8.23" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="968" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-1" value="流量解析" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="50" width="110" height="50" as="geometry" />
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-5" value="流量解析" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="460" y="60" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-2" value="风险分析" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="50" width="110" height="50" as="geometry" />
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-6" value="风险分析" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="720" y="60" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-3" value="流量采集" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="50" width="110" height="50" as="geometry" />
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-7" value="流量采集" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-4" value="数据库" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="50" width="110" height="50" as="geometry" />
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-8" value="采集数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-10" value="排序tcp报文存入" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Zyssp2xTZlaCK_Lh6rSp-7" target="Zyssp2xTZlaCK_Lh6rSp-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="150" as="sourcePoint" />
+            <mxPoint x="280" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-11" value="获取已排序的报文" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="Zyssp2xTZlaCK_Lh6rSp-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="140" as="sourcePoint" />
+            <mxPoint x="590" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-12" value="解析数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-14" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-15" value="1.  读取索引表，取出源目ip和源目端口和随机值&#xa;2.  根据索引表的数据，读取采集表的数据&#xa;3.  根据获取出的采集表的数据，识别协议&#xa;4.  根据不同协议选择不同的解析库&#xa;5.  提取url，method，header，body&#xa;6.  判断body是否为文本，如果为非文本根据url保存为对应的文件&#xa;7.  body为文本，则直接存入数据库&#xa;8.  对于保存的文件，使用相应的工具提取文本内容，存入数据库&#xa;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Zyssp2xTZlaCK_Lh6rSp-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-17" value="存入解析出的参数" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="Zyssp2xTZlaCK_Lh6rSp-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="300" as="sourcePoint" />
+            <mxPoint x="590" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-18" value="获取解析结果" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Zyssp2xTZlaCK_Lh6rSp-6" target="Zyssp2xTZlaCK_Lh6rSp-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="770" y="280" as="sourcePoint" />
+            <mxPoint x="850" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="330" />
+              <mxPoint x="720" y="330" />
+              <mxPoint x="720" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
