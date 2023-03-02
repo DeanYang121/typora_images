@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T06:25:22.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4kFSJM2r00RmDFWnZCwB" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T06:28:03.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YRFk31oAzzwRiKkNpenk" version="20.8.23" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="968" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="Zyssp2xTZlaCK_Lh6rSp-14" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="200" width="50" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-15" value="API发现&#xa;&#xa;API解析：&#xa;    1.  读取索引表，取出源目ip和源目端口和随机值&#xa;    2.  根据索引表的数据，读取采集表的数据&#xa;    3.  根据获取出的采集表的数据，识别协议&#xa;    4.  根据不同协议选择不同的解析库&#xa;    5.  提取url，method，header，body&#xa;    6.  判断body是否为文本，如果为非文本根据url保存为对应的文件&#xa;    7.  body为文本，则直接存入数据库&#xa;    8.  对于保存的文件，使用相应的工具提取文本内容，存入数据库&#xa;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="Zyssp2xTZlaCK_Lh6rSp-15" value="API发现&#xa;&#xa;API解析：&#xa;    1.  读取索引表，取出源目ip和源目端口和随机值&#xa;    2.  根据索引表的数据，读取采集表的数据&#xa;    3.  根据获取出的采集表的数据，识别协议&#xa;    4.  根据不同协议选择不同的解析库&#xa;    5.  对于http1，提取url，method，header，body&#xa;    6.  判断body是否为文本，如果为非文本根据url保存为对应的文件&#xa;    7.  body为文本，则直接存入数据库&#xa;    8.  对于保存的文件，使用相应的工具提取文本内容，存入数据库&#xa;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="335" y="380" width="400" height="230" as="geometry" />
         </mxCell>
         <mxCell id="Zyssp2xTZlaCK_Lh6rSp-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Zyssp2xTZlaCK_Lh6rSp-14">
